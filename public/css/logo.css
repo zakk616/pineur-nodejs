@@ -1,0 +1,50 @@
+
+
+  @media screen and (min-width: 481px) {
+    .container {
+        margin: 80px 30% -100px 10%;
+      }
+      .logo {
+        color: #2c2c2c;
+        font-size: 200px;
+      }
+    
+      .slogan {
+        margin-top: 0px;
+        color: #2c2c2c;
+      }
+    
+      .con1 {
+        z-index: 1;
+        /* background-color: antiquewhite; */
+      }
+      .con2 {
+        z-index: 2;
+        /* background-color: aquamarine; */
+        margin: -280px -0px -200px 13%;
+      }
+  }
+
+  @media screen and (max-width: 480px) {
+    .container {
+        margin: 50px 30% -100px 10%;
+      }
+      .logo {
+        color: #2c2c2c;
+        font-size: 100px;
+      }
+    
+      .slogan {
+        margin-top: 0px;
+        font-size: 20px;
+        color: #2c2c2c;
+      }
+    
+      .con1 {
+        z-index: 1;
+      }
+      .con2 {
+        z-index: 2;
+        margin: -155px -0px -200px 15%;
+      }
+  }
