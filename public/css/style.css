@@ -4,8 +4,13 @@
   top: 0;
 }
 
+@font-face {
+  font-family: LogoFont;
+  src: url(../fonts/GILB____.TTF);
+}
+
 .navbar-brand {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
+  font-family: LogoFont !important;
   font-weight: 600 !important;
   font-size: 2.5rem;
   padding-top: 0px;
@@ -14,4 +19,3 @@
 .nav-link {
   font-weight: 600 !important;
 }
-
