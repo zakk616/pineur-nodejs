@@ -42,13 +42,13 @@ app.get("/contact", function (req, res) {
 });
 
 // for local server
-// app.listen(3000, function () {
-//   console.log("Server started on port 3000");
-// });
+app.listen(3000, function () {
+  console.log("Server started on port 3000");
+});
 
 
 //for heroku server
-function run(port) {
-  console.log("server is running at port: " + port);
-}
-app.listen(process.env.PORT, run(process.env.PORT));
+// function run(port) {
+//   console.log("server is running at port: " + port);
+// }
+// app.listen(process.env.PORT, run(process.env.PORT));
